@@ -1875,7 +1875,6 @@ class control_layout(QtGui.QWidget):
 			logWindow_wid.settingLogText("Choose correct option")
 		else:
 			AFE_config_numOfPhases(i)
-			phase_n_config_Enable.setCurrentIndex(0)
 			for j in range(16):
 				if j<i:
 					self.opacity[j].setEnabled(False)
